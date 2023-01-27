@@ -1,0 +1,103 @@
+.sell-fill-row .sell-fill-col:first-child {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 70px 0;
+}
+
+.sell-fill-row .sell-fill-col:first-child input {
+    padding: 10px 25px;
+    border: none;
+    box-shadow: 0 0 3px #2f5f74;
+    width: 150px;
+    outline: none;
+    letter-spacing: 1.4px;
+    color: #2f5f74;
+    transition: all 0.7s;
+}
+
+.sell-fill-row .sell-fill-col:first-child input:focus {
+    width: 300px;
+}
+
+.sell-fill-row .sell-fill-col:first-child button {
+    background-color: #2f5f74;
+    padding: 10px 25px;
+    border: none;
+    box-shadow: 0 0 5px #2f5f74;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.sell-fill-row .sell-fill-col:first-child .filter-group:last-child button:hover {
+    background-color: #ffffff;
+    color: #2f5f74;
+}
+
+.sell-fill-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sell-fill-group {
+    width: 250px;
+}
+
+.sell-fill-header {
+    height: 130px;
+    display: grid;
+    place-items: center;
+}
+
+.sell-fill-body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.sell-fill-body a {
+    text-align: center;
+    text-shadow: 0 0 1px #2f5f74;
+    margin-bottom: 10px;
+}
+
+.sell-fill-body span.follow {
+    background: #2f5f74;
+    width: max-content;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    display: block;
+    margin: 5px auto;
+    cursor: pointer;
+    box-shadow: 0 0 1px #2f5f74;
+    transition: all 0.5s;
+}
+
+.sell-fill-body span.follow:hover {
+    background: #ffffff;
+    color: #2f5f74;
+}
+
+.sell-fill-body span.date {
+    font-weight: bold;
+    display: block;
+    margin: 5px auto;
+    font-size: 10px;
+}
+
+.sell-fill-header img {
+    width: 130px;
+    height: auto;
+}
+
+.sell-fill-row .sell-fill-col .filter-pagination {
+    margin: 80px 0 50px 0;
+}

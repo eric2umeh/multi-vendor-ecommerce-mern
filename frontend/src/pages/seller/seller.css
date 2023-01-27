@@ -1,0 +1,128 @@
+.seller-row {
+    display: flex;
+    margin: 50px 0;
+}
+
+.seller-col:first-child {
+    flex: 1;
+}
+
+.seller-info {
+    width: 100%;
+}
+
+.seller-header {
+    display: flex;
+    justify-content: center;
+}
+
+.seller-header img {
+    width: 80%;
+    height: auto;
+}
+
+.seller-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.seller-body span {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.seller-body span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.seller-col:last-child {
+    flex: 4;
+}
+.seller-footer {
+    margin-top: 40px;
+}
+
+.follow {
+    background: #2f5f74;
+    width: max-content;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    display: block;
+    margin: 5px auto;
+    cursor: pointer;
+    box-shadow: 0 0 1px #2f5f74;
+    transition: all 0.5s;
+}
+
+.follow:hover {
+    background: #ffffff;
+    color: #2f5f74;
+}
+
+.seller-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.seller-products .card-footer button {
+    display: block;
+    margin: 10px auto;
+    background-color: #f0f3bd;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #f0f3bd;
+    color: #2f5f74;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.seller-products .card-footer button:hover {
+    background-color: #2f5f74;
+    color: #f0f3bd;
+}
+
+.pagi-item {
+    border: 0.5px solid #485b63;
+    padding: 5px;
+}
+
+.pagi-item:hover {
+    background-color: #2f5f74;
+    cursor: pointer;
+}
+
+.pagi-link {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.pagi-item:hover .pagi-link {
+    color: #ffffff;
+}
+
+.pagi-active-link {
+    color: #ffffff;
+}
+
+.disabledPagi {
+    background-color: #e2e2e2;
+}
+
+.disabledPagi .pagi-link {
+    color: #818181;
+}
+
+.disabledPagi:hover {
+    background-color: #e2e2e2;
+}
+
+.disabledPagi:hover .pagi-link {
+    color: #818181;
+}

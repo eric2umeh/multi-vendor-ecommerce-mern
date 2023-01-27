@@ -1,0 +1,39 @@
+.follow-row {
+    margin: 50px 0;
+}
+
+.follow-title {
+    text-align: center;
+    letter-spacing: 1.3px;
+    color: #2f5f74;
+}
+
+.follow-sellers {
+    margin: 40px 0 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 20px;
+}
+
+.unfollow {
+    background: #ca2734;
+    width: max-content;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    display: block;
+    margin: 5px auto;
+    cursor: pointer;
+    box-shadow: 0 0 1px #2f5f74;
+    transition: all 0.5s;
+}
+
+.unfollow:hover {
+    background: #ffffff;
+    color: #ca2734;
+}
