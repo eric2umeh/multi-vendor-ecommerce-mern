@@ -1,0 +1,128 @@
+.cart-row {
+    margin:  50px 0;
+}
+
+.cart-title {
+    text-align: center;
+    letter-spacing: 1.3px;
+    color: #2f5f74;
+}
+
+.cart-items {
+    margin: 40px 0;
+    display: flex;
+    padding: 0 10px;
+}
+
+.cart-col:first-child {
+    flex: 2;
+}
+
+.cart-col:last-child {
+    flex: 1;
+}
+
+.cart-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}
+
+.card-footer.cart {
+    margin: 10px 0;
+}
+
+.card-footer.cart button {
+    display: block;
+    margin: 0 auto;
+    background-color: #f0f3bd;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #f0f3bd;
+    color: #2f5f74;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.card-footer.cart button:hover {
+    background-color: #2f5f74;
+    color: #f0f3bd;
+}
+
+.card-action {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card-action button {
+    background: none;
+    border: none;
+    font-size: 22px;
+    margin: 0 15px;
+}
+
+.card-action svg {
+    transition: all 0.5s;
+}
+
+.card-action svg:hover {
+    color: #2f5f74;
+}
+
+.card-action .quantity {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cart-bill {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bill-title {
+    text-transform: uppercase;
+    color: #2f5f74;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bill-groups {
+    margin: 30px 0;
+}
+
+.bill-group {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #2f5f74;
+    padding: 5px 0;
+}
+
+.bill-btn {
+    margin-top: 40px;
+}
+
+.bill-btn button {
+    display: block;
+    margin: 0 auto;
+    background-color: #2f5f74;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #2f5f74;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.bill-btn button:hover {
+    background-color: #ffffff;
+    color: #2f5f74;
+}
+
+.orderPay {
+    text-align: center;
+    margin-bottom: 20px;
+}

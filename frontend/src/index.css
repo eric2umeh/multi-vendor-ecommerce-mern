@@ -1,0 +1,50 @@
+/* Default Settings Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #fffad4;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../public/assets/fonts/SourceCodePro-Regular.ttf);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: myFont;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  background-color: #f5fffa;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+/* Default Settings End */

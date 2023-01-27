@@ -1,0 +1,187 @@
+.filter-row {
+    padding: 50px 15px;
+}
+
+.filter-row .filter-col:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.filter-row .filter-col:first-child .filter-group:first-child button {
+    margin: 0 15px;
+    background-color: #2f5f74;
+    padding: 10px 25px;
+    border: none;
+    box-shadow: 0 0 5px #2f5f74;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.filter-row .filter-col:first-child .filter-group:first-child button:hover {
+    background-color: #ffffff;
+    color: #2f5f74;
+}
+
+.filter-row .filter-col:first-child .filter-group:last-child input {
+    padding: 10px 25px;
+    border: none;
+    box-shadow: 0 0 3px #2f5f74;
+    width: 150px;
+    outline: none;
+    letter-spacing: 1.4px;
+    color: #2f5f74;
+    transition: all 0.7s;
+}
+
+.filter-row .filter-col:first-child .filter-group:last-child input:focus {
+    width: 300px;
+}
+
+.filter-row .filter-col:first-child .filter-group:last-child button {
+    background-color: #2f5f74;
+    padding: 10px 25px;
+    border: none;
+    box-shadow: 0 0 5px #2f5f74;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.filter-row .filter-col:first-child .filter-group:last-child button:hover {
+    background-color: #ffffff;
+    color: #2f5f74;
+}
+
+.filter-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px 20px;
+    margin-bottom: 50px;
+}
+
+.filter-card {
+    width: 250px;
+    border-bottom: 1px dashed #485b63;
+    transition: all 0.5s;
+}
+
+.filter-card:hover {
+    transform: scale(1.02);
+}
+
+.card-header {
+    position: relative;
+    height: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.card-header .card-sellers {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 1px #485b63);
+    height: auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.card-body a {
+    text-align: center;
+    text-shadow: 0 0 1px #2f5f74;
+    margin-bottom: 10px;
+}
+
+.card-body span.category {
+    background: #ca2734 !important;
+    width: max-content;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    display: block;
+    margin: 5px 0 5px auto;
+}
+
+.card-body span.price {
+    font-weight: bold;
+    display: block;
+    margin: 5px 0 5px auto;
+}
+
+.card-header img {
+    width: 80px;
+    height: auto;
+}
+
+.filter-row .filter-col:last-child .card-footer {
+    margin: 10px 0;
+}
+
+.filter-row .filter-col:last-child .card-footer button {
+    display: block;
+    margin: 0 auto;
+    background-color: #f0f3bd;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #f0f3bd;
+    color: #2f5f74;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.filter-row .filter-col:last-child button:hover {
+    background-color: #2f5f74;
+    color: #f0f3bd;
+}
+
+.filter-pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-pagination ul {
+    display: flex;
+}
+
+.filter-pagination ul li {
+    border: 0.5px solid #485b63;
+    padding: 5px;
+}
+
+.filter-pagination ul li:hover {
+    background-color: #2f5f74;
+}
+
+.filter-pagination ul li:hover a {
+    color: #ffffff;
+}
+
+.filter-pagination ul li a {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.pagi-active {
+    background-color: #2f5f74;
+}
+
+.filter-pagination ul li.pagi-active a,
+.filter-pagination ul li:hover a {
+    color: #ffffff;
+}

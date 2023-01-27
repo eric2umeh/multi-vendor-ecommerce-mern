@@ -1,0 +1,266 @@
+.account-row {
+    margin: 50px 0;
+}
+
+.account-title {
+    text-align: center;
+    letter-spacing: 1.3px;
+    color: #2f5f74;
+    margin-bottom: 50px;
+}
+
+.account-groups {
+    display: flex;
+    padding: 0 15px;
+}
+
+.account-group:first-child {
+    flex: 1;
+}
+
+.account-group:last-child {
+    flex: 2;
+}
+
+.account-group img {
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-row.account {
+    margin: 20px 0;
+    min-height: unset;
+}
+
+.account-image {
+    display: block;
+    margin: 5px auto;
+    background-color: #f0f3bd;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #f0f3bd;
+    color: #2f5f74;
+    letter-spacing: 1.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.account-image:hover {
+    background-color: #2f5f74;
+    color: #f0f3bd;
+}
+
+.account-subtitle {
+    margin-bottom: 30px;
+    letter-spacing: 1.4px;
+    color: #2f5f74;
+    text-align: center;
+}
+
+.account-products {
+    margin-bottom: 50px;
+}
+
+.card-footer.account {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer.account button:first-child {
+    display: block;
+    margin: 5px auto;
+    background-color: #f0f3bd;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #f0f3bd;
+    color: #2f5f74;
+    letter-spacing: 1.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.card-footer.account button:first-child:hover {
+    color: #f0f3bd;
+    background-color: #2f5f74;
+}
+
+.card-footer.account button:last-child {
+    display: block;
+    margin: 5px auto;
+    background-color: #ca2734;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #ca2734;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.card-footer.account button:last-child:hover {
+    background-color: #ffffff;
+    color: #ca2734;
+}
+
+.account-orders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.account-orders h4 {
+    margin-bottom: 10px;
+}
+
+.account-orders h4:last-child {
+    margin-bottom: 40px;
+}
+
+.account-orders a.linkOrder {
+    margin-left: 50px;
+    transition: all 0.5s;
+}
+
+.account-orders a:hover {
+    filter: drop-shadow(0 0 1px #2f5f74);
+}
+
+.form-image {
+    position: relative;
+}
+
+.form-image label {
+    position: absolute;
+    top: 0;
+    right: 30%;
+    font-size: 25px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 1px #2f5f74);
+    transition: all 0.5s;
+}
+
+.form-image label:hover {
+    color: #ca2734;
+}
+
+.btn-upload {
+    display: block;
+    margin: 5px auto;
+    background-color: #f0f3bd;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #f0f3bd;
+    color: #2f5f74;
+    letter-spacing: 1.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.btn-upload:hover {
+    background-color: #2f5f74;
+    color: #f0f3bd;
+}
+
+.add-btn {
+    display: block;
+    margin: 0 0 30px auto;
+    padding: 5px 15px;
+    background-color: #2f5f74;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 1.3px;
+    transition: all 0.5s;
+    box-shadow: 0 0 5px #2f5f74;
+    font-size: 10px;
+}
+
+.add-btn:hover {
+    background-color: #ffffff;
+    color: #2f5f74;
+}
+
+.form-image.product img {
+    width: 70px !important;
+    height: auto;
+}
+
+.orderContainer {
+    margin: 50px 5px;
+}
+
+.orderContainer .orderRow:first-child {
+    margin-bottom: 100px;
+}
+
+.orderContainer .orderRow h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.orderContainer .orderRow.products {
+    display: flex;
+}
+
+.orderContainer .orderRow.products .orderCol:first-child {
+    flex: 2;
+    padding: 0 10px;
+}
+
+.orderContainer .orderRow.products .orderCol:last-child {
+    flex: 1;
+}
+
+.orderContainer .orderRow.products .orderCol:first-child .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.orderContainer .back {
+    font-weight: bold;
+}
+
+.orderContainer .back:hover {
+    text-decoration: underline;
+}
+
+.infoGroups {
+    margin-bottom: 40px;
+    padding: 0 15px;
+}
+
+.info-group {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #2f5f74;
+    margin-bottom: 5px;
+}
+
+.info-group span:nth-child(2) {
+    font-weight: bold;
+}
+
+.account-info {
+    margin-top: 100px;
+}
+
+.userInfoRow {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.account-orders .info.userOrders {
+    margin: 10px !important;
+}
